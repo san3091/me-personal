@@ -3,27 +3,53 @@
   %head
     %title santiago quintana
     %link{:rel => :stylesheet, :type => :"text/css", :href => "css/style.css"}
+    %link{:rel => :preconnect, :href => "https://fonts.googleapis.com"}
+    %link{:rel => :preconnect, :href => "https://fonts.gstatic.com", :crossorigin => true}
+    %link{:rel => :stylesheet, :href => "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"}
   %body
     .body-container
       %h1 santiago quintana
       %p
-        hi! i love making things so i figure i'd share some of the things i make.
-      %h2 i build and maintain the catalytic soundstream
+        hi! i love making things
+      %h2.image-on-hover
+        %a{href: 'https://stream.catalyticsound.com/', target: '_blank'}
+          i build and maintain the catalytic soundstream
       .image-container
-        %img{:src => "img/simon.png"}
+        %img{:src => "img/soundstream.png"}
       %p
         an artist run and curated, subscription-based streaming service that pays catalytic sound co-op musicians 2/3 of net income generated through listeners' subscriptions
       %p
         if you enjoy experimental and improvised music you will love this. i love it
-      %h2 i make music as well
+      %h2.image-on-hover i make music
+      .image-container
+        %img{:src => "img/nimb.jpg"}
       %p
         i'm working on an digital hardcore/industrial electronic album (i have no idea if any of those ~subgenres~ describe what i make). working title is 'ngn' (pronounced engine)
       %p
         i also play experimental music using a technique called no-input mixing. basically you create non-linear feedback loops in a regular audio mixer and making it sing
-      %h2 i also dance
+      %h2.image-on-hover i gave my voice to a machine
+      .image-container
+        %img{:src => "img/ursula.png"}
       %p
-        you can see some of my dance creations here
-      %h2 and i make software full-time
+        i used the wordnet algorythm to train a model on my own voice and it generated some really cool sounds. i named the first one 
+        %a{:href => "https://soundcloud.com/user-255736465/sets/ursula-training", :target => "_blank"}
+          ursula 
+        because she took my voice and captured it in a little digital shell (an aws ec2 instance with a many gpu) and the second one
+        %a{:href => "https://soundcloud.com/user-255736465/sets/virginia-training", :target => "_blank"}
+          virginia 
+        because the sample sounds were me reading virginia woolf
+      %h2.image-on-hover i love dancing
+      .image-container
+        %img{:src => "img/spin.png"}
+      %p
+        you can see some of my dance creations 
+        %a{:href => "https://vimeo.com/santiagoqg", :target => "_blank"}
+          here
+      %h2.image-on-hover
+        %a{:href => "https://www.tablexi.com/", :target => "_blank"}
+          and i make software!
+      .image-container
+        %img{:src => "img/tablexi.png"}
       %p
         i'm a software engineer at txi. i make all sorts of web apps alongside some amazing people and i love it here
 
