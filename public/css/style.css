@@ -1,16 +1,6 @@
 .body-container {
-  width: 500px;
+  width: 400px;
   margin: 0 auto;
-  border: 10px solid black;
-}
-
-.stripes-white {
-  border: 10px solid white;
-}
-
-.stripes-black {
-  padding: 40px;
-  border: 10px solid black;
 }
 
 .image-container {
